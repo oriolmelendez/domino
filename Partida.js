@@ -33,7 +33,7 @@ class Partida {
 
     }
     
-    //Repartim fitxes quan tots dos jugadors ja les tenen assignades i comprovem qui ha de realitzar el primer llançament
+    //Repartim fitxes, quan tots dos jugadors ja les tenen assignades, comprovem qui ha de realitzar el primer llançament
 
     repartirFitxes(nom){
         if(this.jugador1.nom == nom && this.jugador1.fitxes.length == 0){
