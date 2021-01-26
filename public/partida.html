@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/stylePartida.css">
+        <script type="text/javascript" src="js/partida.js"></script>
+        <link rel="icon" type="image/png" href="img/domino.png">
+        <title>Partida</title>
+    </head>
+
+    <body>
+
+        <div id="login">
+            <form>
+                <div id="divCrearP">
+                    <img id="p1-1" src="img/1_1.png"><br>
+                    <label><input type="text" class="form-control" id="crearp"  placeholder="Numero partida"></label>
+                    <button type="button" class="btn btn-light" id="Bcrear" >Crear partida</button>
+                </div>
+                <div id="divAccedirP">
+                    <img id="p1-2" src="img/1_2.png"><br>
+                    <label><input type="text" class="form-control" id="unir"  placeholder="Numero partida"></label>
+                    <button type="button" class="btn btn-light" id="Baccedir" >Accedir a una partida</button>
+                </div>
+                <div id="divPerfil">
+                    <img id="p1-3" src="img/1_3.png"><br>
+                    <button type="submit" formaction="http://localhost:8888/perfil" class="btn btn-info" id="Bperfil" >Consultar dades</button>
+                </div>
+                <div id="divInici">
+                    <button type="button" class="btn btn-warning" id="Bsortir" onclick="sortir()">Sortir</button>                  
+                </div>
+            </form>
+        </div>
+
+    </body>
+
+</html>

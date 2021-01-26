@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">        
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" src="js/login.js"></script>
+        <link rel="icon" type="image/png" href="img/domino.png">
+        <title>Login</title>
+    </head>
+
+    <body>
+        <div id="login">
+            <div id="divicon">
+                <img id="icon" src="img/domino.png">
+            </div>
+            <form action="/">
+                <div id="divuser">
+                    <input type="text" class="form-control" id="usuari"  placeholder="Usuari" required>
+                </div>
+                <div id="divpassword">
+                    <input type="password" class="form-control" id="password" placeholder="Password" required>
+                </div>
+                <div id="divboto">
+                    <button type="button" class="btn btn-info" id="loginB" onclick="comprovarDades()">Accedeix</button>
+                </div>
+            </form>
+            <div id="divregistre">
+                <form action="http://localhost:8888/registre">
+                    <button type="submit" class="btn btn-warning" id="RegistreB">Registre</button>
+                </form>
+            </div>
+            
+        </div>
+    </body>
+    
+
+</html>

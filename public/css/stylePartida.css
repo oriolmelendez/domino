@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #b4b4b4;
+}
+
+#login{
+    margin-top: 180px;
+}
+
+#divAccedirP, #divCrearP, #divInici, #divPerfil{
+    margin-top: 40px;
+    margin-left: 470px;
+}
+
+#unir, #crearp, #Bperfil{
+    width: 300px;
+}
+
+label{
+    float: left;
+    display: block;
+    margin-right: 15px;
+}
+
+#Bcrear , #Bsortir{
+    width: 175px;
+}
+
+#p1-1, #p1-2, #p1-3{
+    width: 120px;
+    float: left;
+    display: block;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+#Bsortir{
+    margin-top: 40px;
+    margin-left: 230px;
+}
+
+#Bperfil{
+    margin-left: 100px;
+}

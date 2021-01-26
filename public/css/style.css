@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #b4b4b4;
+}
+
+#login{
+    margin-top: 100px;
+    margin-left: 470px;
+    max-width: 600px;
+    height: 430px;
+    border: 1px solid #b4b4b4;
+    background-color: #EAEAEA;
+}
+
+#divicon{
+    margin-top: 20px;
+    margin-left: 270px;
+}
+
+#icon{
+    width: 60px;
+    height: 100px;
+}
+
+#divuser{
+    margin-top: 40px;
+}
+
+#divpassword{
+    margin-top: 40px;
+}
+
+#divuser,#divpassword{
+    margin-left: 150px;
+}
+
+#usuari,#password{
+    width: 300px;
+    height: 40px;
+}
+
+#divboto{
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+#loginB,#RegistreB{
+    width: 200px;
+}
+
+#divregistre{
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+#divback{
+    margin-top: 10px;
+    margin-left: 200px;
+}

@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #b4b4b4;
+}
+
+#avatar{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#info, #divFitxes{
+    display: inline-flex;
+}
+
+#DivCodiP, #DivNomUsr{
+    display: inline-flex;
+}
+
+#dades{
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#obtenirFitxes{
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 200px;
+}
+
+#passar{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 200px;
+}
+
+#divFitxes, #divFitxesRobades{
+    margin-left: 500px;
+    width: 900px;
+}
+
+#divFitxes > img{
+    margin-top: 90px;
+    margin-right: 50px;
+    width: 70px;
+}
+
+#divTaulell > img{
+    margin-top: 90px;
+    margin-right: 50px;
+    width: 50px;
+}
+
+#divTaulell{
+    margin-left: 400px;
+    margin-top: 20px;
+    width: 900px;
+}
+
+#divFitxesRobades > img{
+    margin-top: 20px;
+    margin-right: 50px;
+    width: 70px;
+}
